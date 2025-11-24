@@ -79,7 +79,7 @@ class ServerDeletionService
                 }
 
                 if ($ownerId !== $user->id) {
-                    throw new DisplayException('© FerrStoree Foundation Protect\n\nAkses Ditolak : Kamu Hanya Bisa Menghapus Server Milikmu Sendiri');
+                    throw new DisplayException('© FerrStoree Foundation Protect - Akses Ditolak : Kamu Hanya Bisa Menghapus Server Milikmu Sendiri');
                 }
             }
             // jika $user->id === 1, lanjutkan (admin super)
